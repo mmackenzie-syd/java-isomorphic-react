@@ -1,0 +1,30 @@
+{
+  "author": "Maxime Najim",
+  "license": "MIT",
+  "name": "isomorphic-javascript-nashorn-example",
+  "version": "1.0.0",
+  "description": "Isomorphic Javascript Nashorn Example",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximenajim/isomorphic-javascript-nashorn-example.git"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "curved-carousel": "latest",
+    "css-loader": "^0.9.0",
+    "url-loader": "^0.5.5",
+    "file-loader": "^0.8.1",
+    "style-loader": "^0.8.2",
+    "stylus-loader": "^1.1.0",
+    "expose-loader": "^0.7.0",
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "build": "webpack --config webpack-client.config.js && webpack --config webpack-server.config.js"
+  }
+}
