@@ -1,6 +1,10 @@
 # isomorphic-javascript-nashorn-example
 
-Example of isomorphic rendering of reactJS components using Nashorn.
+Comparison of isomorphic rendering of reactJS using Nashorn and GraalVM.
+
+This code was taken from Kumar Chandrakant's https://www.baeldung.com/react-nashorn-isomorphic-app and Yogen Rai's setup for Spring Boot with JSP https://dzone.com/articles/spring-boot-2-with-jsp-view
+
+The GraalVM was added as an import.
 
 ## Nashorn
 
